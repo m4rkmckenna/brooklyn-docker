@@ -10,11 +10,7 @@ RUN curl -s -L "https://repository.apache.org/service/local/artifact/maven/redir
     tar zxf apache-brooklyn.tar.gz ; \
     rm -f apache-brooklyn.tar.gz ; \
 	mv /brooklyn-dist-${brooklyn_version} /apache-brooklyn
-
 WORKDIR /apache-brooklyn
-
 VOLUME [ "/root/.brooklyn", "/root/.ssh" ]
-
 EXPOSE 8081
-
 ENTRYPOINT [ "./bin/brooklyn", "launch" ]
