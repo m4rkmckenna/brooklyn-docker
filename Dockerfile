@@ -1,7 +1,6 @@
 FROM alpine
 MAINTAINER Mark McKenna <m4rkmckenna@gmail.com>
-LABEL version="0.8.0-incubating"
-
+LABEL version="0.9.0-SNAPSHOT"
 ENV brooklyn_version 0.9.0-SNAPSHOT
 RUN apk upgrade --update ; \
     apk add openjdk7-jre bash openssl curl; \
