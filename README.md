@@ -4,7 +4,7 @@
 
 ## Usage
 ```
-docker run -d -v ~/.brooklyn:/root/.brooklyn -v ~/.ssh:/root/.ssh -P m4rkmckenna/brooklyn-docker
+docker run -d -v ~/.brooklyn:/root/.brooklyn -v ~/.ssh:/root/.ssh -P m4rkmckenna/brooklyn-docker:latest
 ```
 
 ### Docker HUB
