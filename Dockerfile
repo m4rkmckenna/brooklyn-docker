@@ -1,8 +1,8 @@
 FROM java:8-jre-alpine
 MAINTAINER Mark McKenna <m4rkmckenna@gmail.com>
-LABEL version="0.9.0-SNAPSHOT"
-ENV brooklyn_version 0.9.0-SNAPSHOT
-ENV repository snapshots
+LABEL version="0.9.0"
+ENV brooklyn_version 0.9.0
+ENV repository releases
 RUN apk upgrade --update ; \
     apk add bash openssl curl ; \
 	rm -rf /var/lib/apt/lists/* ; \
