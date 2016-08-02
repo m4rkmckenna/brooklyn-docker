@@ -1,5 +1,5 @@
 #Brooklyn Docker
-[![](https://badge.imagelayers.io/m4rkmckenna/brooklyn-docker:latest.svg)](https://imagelayers.io/?images=m4rkmckenna/brooklyn-docker:latest 'Get your own badge on imagelayers.io') [![Join the chat at https://gitter.im/m4rkmckenna/brooklyn-docker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/m4rkmckenna/brooklyn-docker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![](https://images.microbadger.com/badges/image/m4rkmckenna/brooklyn-docker.svg)](https://microbadger.com/#/images/m4rkmckenna/brooklyn-docker "Get your own image badge on microbadger.com") [![Join the chat at https://gitter.im/m4rkmckenna/brooklyn-docker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/m4rkmckenna/brooklyn-docker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
 ## Usage
